@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background: hsl(222, 26%, 31%);
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+}
+
+.calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+    min-width: 320px;
+} 
+
+.calculator-design {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    list-style: none;
+    width: 25%;
+    min-width: 320px;
+    margin-bottom: 15px;
+}
+
+.calc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.control {
+    justify-content: space-between;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.draw {
+    background-color: black;
+    width: 50px;
+    height: 3px;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+
+.draw-2 {
+    background-color: red;
+    width: 9px;
+    height: 7px;
+    border-radius: 50%;
+    position: relative;
+    top: -8px;
+    left: 2px;
+}
+
+.second {
+    display: flex;
+    justify-content: end;
+    font-size: 32px;
+    background-color: hsl(224, 36%, 15%);
+    margin: 15px;
+    padding: 20px;
+    width: 25%;
+    border-radius: 15px;
+    min-width: 320px;
+}
+
+.second p {
+    color: hsl(0, 0%, 90%);
+}
+
+.third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    margin: 15px;
+    min-width: 320px;
+    font-size: 32px;
+    background-color: hsl(224, 36%, 15%);
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 15px;
+    flex-direction: column;
+}
+
+.first-number-line, .second-number-line, .third-number-line, .fourth-number-line {
+    display: flex;
+    justify-content: center;
+}
+
+.first-digit, .second-digit, .third-digit, .fourth-digit {
+    background-color: hsl(0, 0%, 90%);
+    margin: 10px;
+    padding: 7px 20px;
+    border-radius: 7px;
+    font-weight: 700;
+}
+
+#num {
+    padding: 10px 15px;
+    font-size: 20px;
+    color: hsl(0, 0%, 90%);
+    background-color: hsl(224, 28%, 35%);
+}
+
+.fifth-number-line {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 10px;
+}
+
+#another {
+    background-color: hsl(6, 63%, 50%);
+    color: hsl(0, 0%, 90%);
+    padding: 20px;
+    width: 45%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#number {
+    padding: 20px;
+    color: hsl(0, 0%, 90%);
+    background-color: hsl(224, 28%, 35%);
+    margin-left: 5px;
+    width: 45%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+span, .span {
+    color: #fff;
+}
