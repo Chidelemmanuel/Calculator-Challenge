@@ -83,12 +83,11 @@ body {
     justify-content: center;
     align-items: center;
     width: 25%;
-    margin: 15px;
     min-width: 320px;
     font-size: 32px;
     background-color: hsl(224, 36%, 15%);
     margin-top: 15px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 15px;
     flex-direction: column;
 }
@@ -101,14 +100,21 @@ body {
 .first-digit, .second-digit, .third-digit, .fourth-digit {
     background-color: hsl(0, 0%, 90%);
     margin: 10px;
-    padding: 7px 20px;
+    padding: 17px 25px;
     border-radius: 7px;
-    font-weight: 700;
+    font-weight: bolder;
+    border: none;
 }
 
 #num {
-    padding: 10px 15px;
-    font-size: 20px;
+    margin: 10px;
+    font-weight: bolder;
+    border-radius: 7px;
+    border: none;
+    padding: 7px 15px;
+    /* height: 75px; */
+    width: 100%;
+    font-size: 15px;
     color: hsl(0, 0%, 90%);
     background-color: hsl(224, 28%, 35%);
 }
@@ -116,27 +122,26 @@ body {
 .fifth-number-line {
     display: flex;
     justify-content: space-between;
-    width: 90%;
-    margin: 10px;
+    width: 100%;
 }
 
 #another {
     background-color: hsl(6, 63%, 50%);
     color: hsl(0, 0%, 90%);
-    padding: 20px;
-    width: 45%;
+    width: 100%;
     text-align: center;
     border-radius: 10px;
 }
 
 #number {
-    padding: 20px;
-    color: hsl(0, 0%, 90%);
     background-color: hsl(224, 28%, 35%);
-    margin-left: 5px;
-    width: 45%;
-    border-radius: 10px;
+    color: hsl(0, 0%, 90%);
+    padding: 20px;
+    width: 100%;
+    margin: 10px;
     text-align: center;
+    border-radius: 10px;
+   
 }
 
 .footer {
