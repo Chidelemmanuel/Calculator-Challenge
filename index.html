@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Frontend Mentor | Calculator app</title>
+  <title>Calculator app</title>
 </head>
 
 <body>
@@ -18,50 +18,53 @@
            <p>1 2 3</p>
           <div class="draw">
             <div class="draw-2"></div>
+            <!-- <button type="button" class="radio"></button> -->
+
           </div>
         </div>
       </div>
     </div>
 
-    <div class="second">
-      <p>399,981</p>
-    </div>
+    <form action="">
+      <input type="text" id="second" class="second">
+    </form>
 
     <div class="third">
       <div class="first-number-line">
-        <button class="first-digit">7</button>
-        <button class="first-digit">8</button>
-        <button class="first-digit">9</button>
-        <button id="num">DEL</button>
+        <button type="button" class="first-digit seven" data num="7">7</button>
+        <button type="button" class="first-digit seven" data num="8">8</button>
+        <button type="button" class="first-digit seven" data num="9">9</button>
+        <button type="button" id="num">DEL</button>
       </div>
-
+ 
       <div class="second-number-line">
-        <button class="second-digit">4</button>
-        <button class="second-digit">5</button>
-        <button class="first-digit">6</button>
-        <button class="first-digit">+</button>
-       
+        <button type="button" class="first-digit four" data num="4">4</button>
+        <button type="button" class="first-digit five" data num="5">5</button>
+        <button type="button" class="first-digit six" data num="6">6</button>
+        <button type="button" class="first-digit plus" data num="+">+</button>
       </div>
 
       <div class="third-number-line">
-        <button class="first-digit">1</button>
-        <button class="first-digit">2</button>
-        <button class="first-digit">3</button>
-        <button class="first-digit">-</button>
+        <button type="button" class="first-digit one" data num="1">1</button>
+        <button type="button" class="first-digit two" data num="2">2</button>
+        <button type="button" class="first-digit three" data num="3">3</button>
+        <button type="button" class="first-digit dash" data num="-">-</button>
       </div>
 
       <div class="fourth-number-line">
-        <button class="first-digit">1</button>
-        <button class="first-digit">0</button>
-        <button class="first-digit">/</button>
-        <button class="first-digit">x</button>
+        <button type="button" class="first-digit dot" data num=".">.</button>
+        <button type="button" class="first-digit zero" data num="0">0</button>
+        <button type="button" class="first-digit slash" data num="/">/</button>
+        <button type="button" class="first-digit exe" data num="*">x</button>
       </div>
 
       <div class="fifth-number-line">
-        <button class="first-digit" id="number">RESET</button>
-        <button class="first-digit" id="another">=</button>
+        <button type="button" class="" id="number">RESET</button>
+        <button type="button" class="" id="another" data num="=">=</button>
       </div>
     </div>
+
+    <script src="app.js"></script>
 
     <div class="footer">
       <h4 class="">Challenge by <a href="https://www.frontendmentor.io/home" class="span">Frontend Mentor</a>  Coded by<span> Chidel.</span></h4>

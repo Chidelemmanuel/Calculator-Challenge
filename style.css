@@ -52,6 +52,10 @@ body {
     padding-top: 10px;
 }
 
+.radio {
+    padding: 20px;
+}
+
 .draw-2 {
     background-color: red;
     width: 9px;
@@ -67,14 +71,17 @@ body {
     justify-content: end;
     font-size: 32px;
     background-color: hsl(224, 36%, 15%);
-    margin: 15px;
     padding: 20px;
-    width: 25%;
+    width: 350px;
     border-radius: 15px;
     min-width: 320px;
+    outline: none;
+    border: none;
+    color: #fff;
 }
 
 .second p {
+    font-family: 'League Spartan', sans-serif;
     color: hsl(0, 0%, 90%);
 }
 
@@ -98,12 +105,16 @@ body {
 }
 
 .first-digit, .second-digit, .third-digit, .fourth-digit {
-    background-color: hsl(0, 0%, 90%);
+    font-size: 18px;
+    background-color: hsl(30, 25%, 89%);
     margin: 10px;
     padding: 17px 25px;
     border-radius: 7px;
     font-weight: bolder;
     border: none;
+    outline: none;
+    box-shadow:  0px 4.5px hsl(28, 16%, 65%);
+    cursor: pointer;
 }
 
 #num {
@@ -112,11 +123,16 @@ body {
     border-radius: 7px;
     border: none;
     padding: 7px 15px;
-    /* height: 75px; */
     width: 100%;
     font-size: 15px;
     color: hsl(0, 0%, 90%);
-    background-color: hsl(224, 28%, 35%);
+    background-color: hsl(225, 21%, 49%);
+    box-shadow:  0px 4.5px hsl(224, 28%, 35%);
+    cursor: pointer;
+}
+
+#num:hover {
+    background-color: rgba(225, 21%, 49%, 0.1);
 }
 
 .fifth-number-line {
@@ -128,20 +144,27 @@ body {
 #another {
     background-color: hsl(6, 63%, 50%);
     color: hsl(0, 0%, 90%);
+    margin: 10px;
     width: 100%;
+    padding: 20px;
     text-align: center;
     border-radius: 10px;
+    box-shadow:  0px 4.5px hsl(6, 70%, 34%);
+    border: none;
+    outline: none;
 }
 
 #number {
-    background-color: hsl(224, 28%, 35%);
+    background-color: hsl(225, 21%, 49%);
     color: hsl(0, 0%, 90%);
     padding: 20px;
     width: 100%;
     margin: 10px;
     text-align: center;
     border-radius: 10px;
-   
+    box-shadow:  0px 4.5px hsl(224, 28%, 35%);
+    border: none;
+    outline: none;
 }
 
 .footer {
@@ -152,4 +175,10 @@ body {
 
 span, .span {
     color: #fff;
+}
+
+@media (max-width: 375px) {
+    .second {
+        width: 320px;
+    }
 }
